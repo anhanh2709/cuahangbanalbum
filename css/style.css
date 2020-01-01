@@ -6467,7 +6467,7 @@ section.wn_contact_area {
   font-size: 14px;
 
   font-weight: 400;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: black;
 }
 .bradcaump__inner .bradcaump-content1 .breadcrumb_item.active, .bradcaump__inner .bradcaump-content1.breadcrumb_item:hover {
