@@ -5328,7 +5328,7 @@ margin-left: 40px;}
   border-right: 1px solid #e8e8e8;
   padding: 40px; }
 .cart__btn__list li a {
-  background: #79b7e7;
+  background: #17a2b8;
   color: white;
   border-radius: 5px;
   display: block;
@@ -5338,10 +5338,9 @@ margin-left: 40px;}
   height: 50px;
   line-height: 50px;
   padding: 0 26px;
-  text-transform: capitalize;
   transition: all 0.3s ease 0s; }
 .cart__btn__list li a:hover {
-  background: #17a2b8;
+  background: #79b7e7;
   color: #fff; }
 .cartbox-total {
   background: #f6f6f6 none repeat scroll 0 0;
@@ -5349,7 +5348,7 @@ margin-left: 40px;}
 .cartbox__total__area {
   margin-top: 50px; }
 .cart__total__amount {
-  background: #44aaee;
+  background: #79b7e7;
   color: white;
   display: flex;
   height: 60px;
@@ -5361,6 +5360,7 @@ margin-bottom: 80px;
 margin-top: -30px;
   margin-right: 0px;
 }
+
 .cart__total__list li {
   color: #333444;
   font-family: "Poppins", sans-serif;
@@ -5692,7 +5692,7 @@ margin-top: -30px;
 .shipping__method li {
   color: #333;
   display: flex;
-  font-weight: 700;
+  /*font-weight: 700;*/
   justify-content: space-between; }
 .shipping__method > li + li {
   margin-top: 20px; }
@@ -6845,9 +6845,15 @@ margin-left: 25px;
 .hy{
   width: 120px;
   height: 50px;
-  background: #007bff;
-  border: 1px solid #007bff;
+  color: #fff;
+  background: #17a2b8;
+  border: 1px solid #17a2b8;
   border-radius: 5px;
+}
+.hy:hover {
+  background: #79b7e7;
+  color: #fff;
+  border: 1px solid #79b7e7;
 }
 
 .hy1 p{
@@ -6861,8 +6867,8 @@ margin-left: 25px;
 .nu1{
   width: 110px;
   height: 50px;
-  background: #007bff;
-  border: 1px solid #007bff;
+  background: #c7d4f2;
+  border: 1px solid #c7d4f2;
   margin-top: -50px;
   margin-bottom: 50px;
   border-radius: 5px;
@@ -7311,16 +7317,16 @@ margin-left: 25px;
 .xacnhandon{
   height: 40px;
   width: 200px;
-  background: #007bff;
+  background: #17a2b8;
   color: white;
   font-weight: bolder;
   border: none;
 }
 .xacnhandon:hover{
-  background: white;
+  background: #79b7e7;
   cursor: pointer;
-  border: 2px #007bff solid;
-  color: #007bff;
+  border: 2px #79b7e7 solid;
+  color: white;
   font-weight: bolder;
 }
 /*.p{*/
